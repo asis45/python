@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr  3 10:20:20 2019
+
+@author: aashish
+"""
+
+#implement find and replace function
+# find() gives the index of first occurence of a character in the string
+# replace() replaces all occurences of a char with another char
+name=input("Enter a string:")
+print(name.find("y"))
+print(name.find("b"))
+print(name.replace("l", "k"))
+print(name.replace("black","blue"))
+
+
+#Enter a string:sky is black
+#2
+#7
+#sky is bkack
+#sky is blue
+
+
+
+
+#swapping  two values
+a=input("Enter a:")
+b=input("Enter b:")
+a,b=b,a
+print(a)
+print(b)
+
+
+#printing a poem ,using escape sequence 
+print("Twinke,twinkle little star,")
+print("\t How i wonder what you are!")
+print("\t\tUp above so world so high,")
+print("\t\tLike a diamond in the sky.")
+print("Twinke, twinkle, little star,")
+print("\tHow i wonder what you are")
+
+#Twinke,twinkle little star,
+#	 How i wonder what you are!
+#		Up above so world so high,
+#		Like a diamond in the sky.
+#Twinke, twinkle, little star,
+#	How i wonder what you are
+
+
+
+
+
+
+
+
+#printing version of python, date time
+import platform
+print(platform.sys.version)
+
+import datetime
+print(datetime.datetime.now())
+
+#3.5.2 (default, Nov 12 2018, 13:43:14) 
+#[GCC 5.4.0 20160609]
+#2019-04-03 11:06:33.979718
+
+
+
+
+
+
+
+#printing surname first
+x=input("Enter your first name: ")
+y=input("Enter your last name: ")
+print(y + " " + x)
+
+
+
+
+#strip() function is used to remove all irrevalant spaces 
+n="   aashish   "
+print(n.strip())
+
+
+
+
+#list index ouput
+name=input("Enter your name: ")
+print(name[1])
+print( name[-2] )
+print( name[1:-1] )   
+print("Length of string ",len(name))
+print(name.title())
+
+
+#Enter your name: python course
+#y
+#s
+#ython cours
+#Length of string  13
+#Python Course
+
+
+
+
+
+
+#del deletes the deletes variable from its addresss
+str="python"
+del str
+print(str)
+
+#NameError: name 'python' is not defined
+
+
+
